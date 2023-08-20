@@ -29,10 +29,11 @@ export default function Home() {
           acumular, maior será o desconto na próxima compra.
         </p>
 
-        <div className="grid grid-cols-2 grid-rows-2 bg-slate-800 w-full max-w-7xl mt-8 p-4 justify-stretch">
-          <ProductCard title="Nome Pizza"/>
-          <ProductCard title="Nome Pizza"/>
-          <ProductCard title="Nome Pizza"/>
+        <div className="grid grid-cols-2 grid-rows-2 gap-3 w-full max-w-4xl items-center mt-8 p-4">
+          <ProductCard title="Nome Pizza" description="Descricao de pizza"/>
+          <ProductCard title="Nome Pizza" description="Descricao de pizza"/>
+          <ProductCard title="Nome Pizza" description="Descricao de pizza"/>
+          <ProductCard title="Nome Pizza" description="Descricao de pizza"/>
         </div>
       </div>
     </main>
