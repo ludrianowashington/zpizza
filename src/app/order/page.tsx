@@ -1,6 +1,6 @@
 export default function Order() {
   return(
-    <div className="">
+    <div className="flex ">
       <div>Pedido</div>
     </div>
   )
